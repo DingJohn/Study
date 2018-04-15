@@ -1,6 +1,6 @@
 1.安装PYcharm、mySQL、Navicat for mySQL
 2.安装Python
-3.确定了python的学习方向，python+web（很大成都是因为成都的python岗位90%是基于此）
+3.确定了python的学习方向，python+web（因为成都的python岗位90%是基于此）
 4.Navicat for mySQL：
 	1.可以迅速的将其他数据库表结构复制到当前数据库
 	2.可以迅速的将其他数据库表复制到当前数据库
