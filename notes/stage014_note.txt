@@ -1,0 +1,3 @@
+1.列表生成式:List Comprehensions，是Python内置的非常简单却强大的可以用来创建list的生成式
+    1.list(range(1, 11))：生成1-(11-1)元素的list
+    2.os.listdir：可以列出文件和目录
