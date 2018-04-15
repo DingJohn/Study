@@ -38,6 +38,15 @@ def fact2(num, defalut):
     return fact2(num - 1, num * defalut)
 
 
+'''
+    ===> fact_iter(5, 1)
+    ===> fact_iter(4, 5)
+    ===> fact_iter(3, 20)
+    ===> fact_iter(2, 60)
+    ===> fact_iter(1, 120)
+    ===> 120
+'''
+
 print(fact1(5))
 
 print("\n==============================练习(汉诺塔)=====================")
