@@ -35,3 +35,22 @@ def f2(number):
 
 # map(f2, "7659") 将7659拆开为单独的值去匹配f2中的key，并获取对应的value
 print(reduce(f1, map(f2, "7659")))
+
+print("\n==============================filter()=======================")
+
+
+# 查询一个列表的偶数
+def is_odd(number):
+    return number % 2 == 0
+
+
+print(list(filter(is_odd, [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10])))
+
+
+# 将列表中的空字符串都删掉
+
+def no_empty(l):
+    return l and l.strip()
+
+
+print(list(filter(no_empty, ['', '金', '', '太', None])))
