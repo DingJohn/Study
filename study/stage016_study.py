@@ -54,3 +54,6 @@ def no_empty(l):
 
 
 print(list(filter(no_empty, ['', '金', '', '太', None])))
+
+
+print("\n==============================sorted()=======================")
